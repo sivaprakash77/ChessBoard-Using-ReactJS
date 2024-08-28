@@ -1,0 +1,33 @@
+.ChessBoard{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-top: 15px solid black;
+    border-bottom: 15px solid black;
+    border-left: 25px solid rgb(88, 85, 85);
+    border-right: 25px solid rgb(97, 91, 91);
+}
+td{
+   width: 5rem;
+   height:5rem;
+   text-align: center;
+}
+.black{
+    background-color: rgb(92, 136, 121);
+   
+}
+.white{
+    background-color: rgb(246, 233, 223);
+}
+.wp{
+    color: white;
+    stroke:  rgb(92, 136, 121);
+    stroke-width: 30px;
+    width: 60%;
+    height: 60%;
+}
+.bk{
+    width: 60%;
+    height: 60%;
+}
